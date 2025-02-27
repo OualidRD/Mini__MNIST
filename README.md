@@ -20,9 +20,9 @@ Le projet est organisé comme suit :
 │── requirements.txt # Fichier des dépendances
 │── README.md # Documentation du projet
 
-## 📝 Description des Devoirs
+## 📝 Description
 
-**Devoir 1 : Génération du Dataset**
+**Génération du Dataset**
 - **Objectif** : Créer un dataset appelé `mini_mnist.csv` contenant 1000 échantillons (100 par classe) de vecteurs de 72 pixels représentant les chiffres de 0 à 9.
 - **Fichier** : `generate_data.py`
 - **Fonctionnalités** :
@@ -30,7 +30,7 @@ Le projet est organisé comme suit :
   - Attribution de labels (0 à 9) à chaque échantillon.
   - Sauvegarde du dataset au format CSV.
 
-**Devoir 2 : Prétraitement et Clustering**
+**Prétraitement et Clustering**
 - **Objectif** : Prétraiter le dataset, visualiser les données, appliquer un clustering, et diviser le dataset en ensembles d'entraînement et de test.
 - **Fichiers** :
   - `preprocess.py` : Visualisation des données.
@@ -43,7 +43,7 @@ Le projet est organisé comme suit :
   - Évaluation de la correspondance entre clusters et labels.
   - Division des données en ensembles d'entraînement (80%) et de test (20%).
 
-**Devoir 3 : Classification avec PyTorch**
+**Classification avec PyTorch**
 - **Objectif** : Créer un modèle de classification avec PyTorch pour prédire les labels des images.
 - **Fichier** : `train_mini_mnist.ipynb`
 - **Architecture du modèle** :
